@@ -18,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
         x=(Spinner) findViewById(R.id.spinner);
         ArrayAdapter a = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item,dropDownItems);
         x.setAdapter(a);
+        //Hello World
     }
 }
